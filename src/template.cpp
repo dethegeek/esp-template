@@ -58,7 +58,7 @@ size_t Template::printTo(Print& p) const {
 Template::Template(fs::FS* fs, const char* filename, TemplateCallbackFunction callback) {
     _fs = fs;
     _filename = (char*) malloc(strlen(filename));
-    strcpy(_filename , filename);
+    strcpy(_filename, filename);
     _callback = callback;
 }
 
