@@ -15,7 +15,6 @@ It is published here after seeing this issue : https://github.com/fhessel/esp32_
 
 - Loops
 - Alternatives (might be hard to implement with minimal footprint)
-- support for method callback
 
 # Templating syntax (case sensitive)
 

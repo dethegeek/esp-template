@@ -2,9 +2,11 @@
 #ifndef template_h
 #define template_h
 
+#include <functional>
+
 #include <FS.h>
 
-typedef String (*TemplateCallbackFunction)(const String &key);
+typedef std::function<String(const String &key)> TemplateCallbackFunction;
 
 class Template : public Printable
 {
